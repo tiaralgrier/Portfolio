@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Bootstrap import-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Icon import-->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="top-section">
+        <!--Header-->
+        <dic class="col-md-12">
+          <nav
+            class="navbar navbar-expand-lg navbar-light"
+            style="background-color: #edeee8"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                  <a class="nav-link" href="#about-me-section">About Me</a>
+                  <a class="nav-link" href="#languages-section">Skills</a>
+                  <a class="nav-link" href="#projects-section">Projects</a>
+                  <a class="nav-link" href="#contact-me-section">Contact Me</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </dic>
+      </div>
+
+      <div class="row" id="intro-section" style="margin-bottom: 72px;">
+        <!--Intro-->
+        <div class="col-md-8 center">
+          <h2>
+            Hi there! 🌻 My name is Tiara L. Grier. I’m a Software Engineer
+            based in Atlanta, Georgia
+          </h2 style="margin-bottom: 12px;">
+          <button type="button" class="btn btn-outline-success">
+            <a href="#projects-section">View Projects</a>
+          </button>
+        </div>
+        <div class="col-md-4">
+          <div class="profile-picture">
+            <img
+              class="graduation-picture"
+              src="/archive/images/Graduation.jpg"
+              alt="Tiara at Masters Graduation"
+            />
+            <p>CV download link above and links below</p>
+            <!--GitHub Icon-->
+            <a href="https://github.com/tiaralgrier" target="_blank" rel="noopener noreferrer"></a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-github"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                />
+              </svg>
+            </a>
+            <!--LinkedIn Icon-->
+            <a href="https://www.linkedin.com/in/tiaragrier2/" target="_blank" rel="noopener noreferrer"></a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="about-me-section" style="margin-bottom: 72px;">
+        <!--About me and Contact-->
+        <div class="col-md-8">
+          <section class="about-me">
+            <div class="summary">
+              <h2>About Me</h2>
+              <p>
+                I'm an enthusiastic software engineer with a Master's in
+                Software Engineering and a background in UX design eagerly
+                seeking a role in advancing technologies. Experienced in
+                coordinating teams, developing innovative software applications,
+                and displaying leadership qualities. Passionate about
+                collaborating on projects that push technology forward and
+                improve user experiences. Motivated to contribute to a mission
+                of organizing information and creating impactful technology
+                experiences.
+              </p>
+            </div>
+          </section>
+        </div>
+        <div class="col">
+          <div class="contact-me">
+            <h2>Contact Me</h2>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Atlanta, GA
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.8 2.8 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124q.219.416.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442q.33-.421.55-.836L15 11.105V5.383l-3.002 1.801a2.8 2.8 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"
+                />
+              </svg>
+              tiaragrier2@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="languages-section" style="margin-bottom: 72px;">
+        <!--Languages-->
+        <div class="col">
+          <div class="langauages">
+            <h2>Languages</h2>
+            <div class="row row-cols-1 row-cols-md-5 gx-2 gy-5" style="margin-bottom: 12px;">
+              <div class="col">
+                <!--SQL-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--Python-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--Java-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--NumPy-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-plain.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--Pandas-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-5 gx-2 gy-5">
+              <div class="col">
+                <!--C#-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--HTML-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--CSS-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--Bootstrap-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
+                </div>
+              </div>
+              <div class="col">
+                <!--Ruby-->
+                <div class="card card-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original-wordmark.svg" />
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="skills-section" style="margin-bottom: 72px;">
+        <!--Skills-->
+        <div class="col-md-12">
+          <section class="skills">
+            <h2>Skills</h2>
+            <div class="row">
+              <div class="col">
+                <p>Slider here</p>
+              </div>
+              <div class="col">
+                <p>Slider here</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Slider here</p>
+              </div>
+              <div class="col">
+                <p>Slider here</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Slider here</p>
+              </div>
+              <div class="col">
+                <p>Slider here</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="row" id="projects-section" style="margin-bottom: 72px;">
+        <!--Projects-->
+        <div class="col-md-12">
+          <div class="projects">
+            <h2>Projects</h2>
+            <p>Repo here</p>
+            <p>Repo here</p>
+            <p>Repo here</p>
+            <p>Repo here</p>
+            <p>Repo here</p>
+            <p>Repo here</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="contact-me-section">
+        <!--Contact Me Section-->
+        <div class="col-md-12">
+          <p>Form goes here</p>
+        </div>
+      </div>
+
+      <div id="bottom">
+          <button type="button" class="btn btn-outline-success" id="bot_open">
+            <a href="#top-section">Back to Top</a>
+          </button>
+      </div>
+    </div>
+  </body>
+</html>
