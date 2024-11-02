@@ -1,0 +1,154 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal, italic;
+  font-weight: 400, 500, 600, 700;
+}
+
+body {
+  background-image: url("archive/images/background.png");
+  padding: 16px;
+  margin-bottom: 48px;
+}
+
+h2 p {
+  color: #0a0c1f;
+}
+
+.center {
+  padding: 122px 0;
+  text-align: center;
+}
+
+.profile-picture {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.graduation-picture {
+  border-radius: 100%;
+  height: 350px;
+}
+
+button a {
+  color: #198753;
+}
+
+button a:hover,
+#bottom button:hover {
+  color: #edeee8;
+  background-color: #198753;
+  cursor: pointer;
+}
+
+.row {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-icon {
+  width: 150px;
+}
+
+/*Fixed Button*/
+#bottom button {
+  background-color: #edeee8;
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  z-index: 1000;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  filter: progid: dximagetransform.microsoft.basicimage(rotation=3);
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Social Icons*/
+.github {
+  color: #6e5494;
+}
+
+.github::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.github:hover::after {
+  cursor: pointer;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+.linkedin::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.linkedin:hover::after {
+  cursor: pointer;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*Language Tags*/
+.card:hover {
+  box-shadow: 10px 10px 10px rgb(36, 36, 36, 0.5);
+  cursor: pointer;
+}
+
+.language-tags {
+  margin: 12px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.tag:hover {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/*Background*/
+.circle-background {
+  width: 100px;
+  height: 100px;
+  background-color: #edeee8;
+  border: #0a0c1f;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
