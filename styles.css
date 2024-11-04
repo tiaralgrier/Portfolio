@@ -141,14 +141,30 @@ a {
   transition: background-color 0.3s ease;
 }
 
-/*Background*/
-.circle-background {
-  width: 100px;
-  height: 100px;
-  background-color: #edeee8;
-  border: #0a0c1f;
-  border-radius: 50%;
-  position: absolute;
-  top: 50px;
-  left: 100px;
+/*Breakpoints*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #languages-section .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #languages-section .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #languages-section .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
 }
