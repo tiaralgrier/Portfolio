@@ -1,3 +1,3 @@
 # Portfolio
 
-Current link: https://tiaralgrier.github.io/Portfolio
+Current link: https://www.tiaralgrier.com
